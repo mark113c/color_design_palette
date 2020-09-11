@@ -7,6 +7,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="master_container">
+      <h1>Color Pallette Designer</h1>
+      <div class="color_selector_container">
+        <input class="color_selector" type="color" value="#FFB6C1" />
+      </div>
+      <div class="dropdown_container">
+        <label for="colorOptions">Color Harmonies</label>
+        <select name="colorHarmonies" id="colorHarmonies">
+          <option value="analogous"></option>
+          <option value="monochromatic"></option>
+          <option value="triad"></option>
+          <option value="complementary"></option>
+          <option value="compound"></option>
+          <option value="shades"></option>
+        </select>
+      </div>
+      <div class="color_viewer_container">
+        <div class="color_viewer color1"></div>
+        <div class="color_viewer color2"></div>
+        <div class="color_viewer color3"></div>
+        <div class="color_viewer color4"></div>
+        <div class="color_viewer color5"></div>
+      </div>
+      <div class="color_container">
+        <div class="color_information color1">
+          <p class="hex_value1">HEX:</p>
+          <p class="rgb_value1">RGB:</p>
+          <p class="hsl_value1">HSL:</p>
+        </div>
+        <div class="color_information color2">
+          <p class="hex_value2">HEX:</p>
+          <p class="rgb_value2">RGB:</p>
+          <p class="hsl_value2">HSL:</p>
+        </div>
+        <div class="color_information color3">
+          <p class="hex_value3">HEX:</p>
+          <p class="rgb_value3">RGB:</p>
+          <p class="hsl_value3">HSL:</p>
+        </div>
+        <div class="color_information color4">
+          <p class="hex_value4">HEX:</p>
+          <p class="rgb_value4">RGB:</p>
+          <p class="hsl_value4">HSL:</p>
+        </div>
+        <div class="color_information color5">
+          <p class="hex_value5">HEX:</p>
+          <p class="rgb_value5">RGB:</p>
+          <p class="hsl_value5">HSL:</p>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
